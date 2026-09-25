@@ -87,5 +87,3 @@ API Reference
 | /products/:id | DELETE | Remove a product from the ledger |
 Author
 Developed by Sukhvinder Kaur
-
-Ab isko paste karke Commit kar do, folder structure ekdam clean box formatted dikhega!
