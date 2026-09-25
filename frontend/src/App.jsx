@@ -1,7 +1,7 @@
 import { useState, useEffect, useMemo } from 'react';
 import './index.css';
 
-const API = 'http://localhost:5000';
+const API = 'https://wares-ledger-backend-0ssd.onrender.com';
 const PALETTE = ['#6366f1', '#2B6E68', '#8A5A34', '#B8860B', '#7A4B8A', '#10b981', '#ef4444'];
 const emptyForm = { name: '', category: '', price: '', stock: '', color: PALETTE[0], rating: 3 };
 
