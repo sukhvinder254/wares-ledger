@@ -2,6 +2,8 @@
 
 A sleek, responsive, and robust full-stack inventory tracking web application built with React (Vite) on the frontend and a Node.js (Express) REST API backend. Designed for real-time stock monitoring, inventory valuation, dynamic filtering, and custom categorization.
 
+---
+
 ## Key Features
 
 - Real-time Inventory Metrics: Live calculation of total distinct items, aggregate in-stock unit volume, and total portfolio valuation.
@@ -20,6 +22,8 @@ A sleek, responsive, and robust full-stack inventory tracking web application bu
   - Delete: Remove deprecated items with instant backend state update.
 - Interactive Toast Feedback: Non-intrusive toast notification system for save, edit, delete, and connection state alerts.
 
+---
+
 ## Tech Stack & Architecture
 
 ### Frontend:
@@ -33,8 +37,11 @@ A sleek, responsive, and robust full-stack inventory tracking web application bu
 - API Architecture: RESTful Endpoints (GET, POST, PUT, DELETE)
 - Middleware: CORS, Express JSON Body Parser
 
+---
+
 ## Repository Structure
 
+```text
 wares-ledger/
 ├── backend/
 │   ├── server.js          # Express REST API server & state handling
@@ -49,15 +56,12 @@ wares-ledger/
 ├── .gitignore             # Environment & node_modules exclusion rules
 └── README.md              # Project documentation
 
-## Local Development Setup
-
-### Prerequisites:
-- Node.js (v18 or higher recommended)
-- Git installed on your system
-
-### 1. Clone the Repository
-```bash
-git clone [https://github.com/sukhvinder254/wares-ledger.git](https://github.com/sukhvinder254/wares-ledger.git)
+Local Development Setup
+Prerequisites:
+ * Node.js (v18 or higher recommended)
+ * Git installed on your system
+1. Clone the Repository
+git clone https://github.com/sukhvinder254/wares-ledger.git
 cd wares-ledger
 
 2. Start Backend Server
@@ -83,3 +87,5 @@ API Reference
 | /products/:id | DELETE | Remove a product from the ledger |
 Author
 Developed by Sukhvinder Kaur
+
+Ab isko paste karke Commit kar do, folder structure ekdam clean box formatted dikhega!
